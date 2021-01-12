@@ -22,7 +22,9 @@ const Home = () => {
                 </div>
             </div>
             <div className="contents">
-                <Link to="/VanillaJS">VanillaJS</Link>
+                <a target="_blank" href="https://minjyo.github.io/VanillaJS/">
+                    VanillaJS
+                </a>
             </div>
         </div>
     );
