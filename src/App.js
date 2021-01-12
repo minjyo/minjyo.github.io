@@ -4,7 +4,7 @@ import Home from "../src/pages/home/index";
 function App() {
     return (
         <BrowserRouter>
-            <Route path="/minjyo.github.io"></Route>
+            <Route path="/minjyo.github.io" component={Home}></Route>
 //             <Route exact path="/" component={Home}></Route>
         </BrowserRouter>
     );
