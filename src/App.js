@@ -3,8 +3,7 @@ import Home from "../src/pages/home/index";
 
 function App() {
     return (
-        <BrowserRouter>
-            {/* <Route path="/minjyo.github.io"></Route> */}
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Route exact path="/" component={Home}></Route>
         </BrowserRouter>
     );
